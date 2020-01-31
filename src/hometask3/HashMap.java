@@ -2,12 +2,12 @@ package hometask3;
 
 import static java.lang.Math.abs;
 
-class HashTable<K, V> {
+class HashMap<K, V> {
 
     private HashSlot<K, V>[] hashSlotArray;
     public int capacity;
 
-    public HashTable() {
+    public HashMap() {
         this.capacity = 10;
         this.hashSlotArray = (HashSlot<K, V>[]) new HashSlot[capacity];
     }

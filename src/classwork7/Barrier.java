@@ -1,24 +1,22 @@
-package hometask7;
+package classwork7;
 
-public class Semaphore {
+public class Barrier {
     private final int maxThreadCount;
     private int currentThreadCount;
 
-    public Semaphore (int maxThreadCount) {
+    public Barrier (int maxThreadCount) {
         this.maxThreadCount = maxThreadCount;
+        this.currentThreadCount = 0;
     }
 
-    public synchronized void lock() {
-        while (currentThreadCount == maxThreadCount) {
+    public synchronized void barrierRun() {
+        currentThreadCount++;
+        while (currentThreadCount < maxThreadCount) {
             await();
         }
-        ++currentThreadCount;
+        this.notifyAll();
     }
 
-    public synchronized void unlock() {
-        this.notify();
-        --currentThreadCount;
-    }
 
     private void await() {
         try {

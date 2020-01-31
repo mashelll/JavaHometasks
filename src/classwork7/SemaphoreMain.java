@@ -1,4 +1,4 @@
-package hometask7;
+package classwork7;
 
 public class SemaphoreMain {
     private Semaphore semaphore = new Semaphore(3);

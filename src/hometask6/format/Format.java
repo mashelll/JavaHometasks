@@ -47,9 +47,9 @@ public abstract class Format {
 
     protected abstract String onCollectionFinish();
 
-    protected abstract String writeNull();
+    public abstract String writeNull();
 
-    protected abstract String writeNumberOrBool(Object o);
+    public abstract String writeNumberOrBool(Object o);
 
-    protected abstract String writeAsString(Object o);
+    public abstract String writeAsString(Object o);
 }

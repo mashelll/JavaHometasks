@@ -1,4 +1,6 @@
-package hometask7;
+package classwork7;
+
+import classwork7.Barrier;
 
 public class BarrierRunner implements Runnable{
     private final Barrier barrier;

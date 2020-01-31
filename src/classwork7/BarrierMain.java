@@ -1,4 +1,4 @@
-package hometask7;
+package classwork7;
 
 public class BarrierMain {
     private Barrier barrier = new Barrier(5);
