@@ -1,6 +1,6 @@
-package hometask6;
+package hometask5;
 
-import hometask6.format.Format;
+import hometask5.format.Format;
 
 import java.lang.reflect.Field;
 import java.util.*;
@@ -21,12 +21,31 @@ public class SerializerImpl implements Serializer {
     }
 
     private String serializeObject(Object o) {
-        if (o == null) return format.writeNull();
-        else if (isWrapperType(o)) return serializeWrapper(o);
-        else if (isCollection(o)) return serializeCollection((Collection<?>) o);
-        else if (isArray(o)) return serializeCollection((asList((Object[]) o)));
-        else if (isMap(o)) return serializeMap((Map<?, ?>) o);
-        else return serializeFields(o);
+        if (o == null) {
+            System.out.println(o.getClass());
+            return format.writeNull();
+        }
+        else if (isWrapperType(o)) {
+            System.out.println(o.getClass());
+            return serializeWrapper(o);
+        }
+
+        else if (isCollection(o)) {
+            System.out.println(o.getClass());
+            return serializeCollection((Collection<?>) o);
+        }
+        else if (isArray(o)) {
+            System.out.println(o.getClass());
+            return serializeCollection((asList((Object[]) o)));
+        }
+        else if (isMap(o)) {
+            System.out.println(o.getClass());
+            return serializeMap((Map<?, ?>) o);
+        }
+        else {
+            System.out.println(o.getClass());
+            return serializeFields(o);
+        }
     }
 
     private static boolean isWrapperType(Object o) {
@@ -56,7 +75,7 @@ public class SerializerImpl implements Serializer {
     }
 
     private String serializeMap(Map<?, ?> map) {
-        Map<String, String> elements = new HashMap<>();
+        Map<String, String> elements = new LinkedHashMap<>();
         map.forEach((key, value) -> elements.put(key.toString(), serializeObject(value)));
         return format.writeMap(elements);
     }
@@ -66,9 +85,8 @@ public class SerializerImpl implements Serializer {
     }
 
     private Map<String, Object> getDeclaredFields(Object o) {
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new LinkedHashMap<>();
         Class<?> clazz = o.getClass();
-
         try {
             while (clazz != null) {
                 Field[] fields = clazz.getDeclaredFields();

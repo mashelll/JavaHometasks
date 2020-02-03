@@ -1,4 +1,4 @@
-package hometask6.format;
+package hometask5.format;
 
 
 import java.util.List;
@@ -8,10 +8,6 @@ import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.*;
 
 public class XMLFormat extends Format {
-
-    public XMLFormat(int indent) {
-        super(indent);
-    }
 
     @Override
     protected String onMapStart() {

@@ -1,15 +1,11 @@
-package hometask6.format;
+package hometask5.format;
 
 import java.util.List;
 import java.util.Map;
 
 public abstract class Format {
-    protected final int indent;
+    protected final int indent = 4;
     protected int currentIndent = 0;
-
-    public Format(int indent) {
-        this.indent = indent;
-    }
 
     protected String getIndent() {
         return new String(new char[indent * currentIndent]).replace("\0", " ");

@@ -1,21 +1,33 @@
 package hometask5;
 
+import java.util.Map;
+
 public class Person {
     private final String name;
+    private final String lastName;
+    private final Map<String, String> addresses;
+    private final String[] phoneNumbers;
 
-    public Person(String name) {
+    public Person(String name, String lastName, Map<String, String> addresses, String[] phoneNumbers) {
         this.name = name;
+        this.lastName = lastName;
+        this.addresses = addresses;
+        this.phoneNumbers = phoneNumbers;
     }
 
-    public void printName() {
-        System.out.println(name);
+    public String getName() {
+        return name;
     }
 
-    public void sleep() {
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Map<String, String> getAddresses() {
+        return addresses;
+    }
+
+    public String[] getPhoneNumbers() {
+        return phoneNumbers;
     }
 }

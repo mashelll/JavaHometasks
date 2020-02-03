@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36b34f2-5898-4841-8295-c7954248c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hometasks/hometask4/CollectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hometasks/hometask4/CollectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask3/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask3/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask3/HashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask3/HashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hometasks/hometask6/SerializerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hometasks/hometask6/SerializerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hometasks/hometask7/TaskImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hometasks/hometask7/TaskImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hometask6/SerializerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask6/SerializerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hometask6/format/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask6/format/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask7/Barrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork7/Barrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask7/BarrierMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork7/BarrierMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask7/BarrierRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork7/BarrierRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask7/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork7/Semaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hometask7/SemaphoreMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classwork7/SemaphoreMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hometask6/format/JSONFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask6/format/JSONFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hometask6/format/XMLFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask6/format/XMLFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hometask7/TaskImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hometask7/TaskImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +54,39 @@
       <recent name="hometask2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hometask4.Main" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hometask4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hometask7.Main" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hometask7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hometask6.Main" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hometask6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,26 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork5.Main" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hometask3.*" />
+          <option name="PATTERN" value="classwork5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hometask3" />
-      <option name="MAIN_CLASS_NAME" value="hometask3.HashMapTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.HashMapTest" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -140,53 +164,61 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="619" y="343" width="742" height="428" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1576173009388" />
-    <state x="759" y="200" width="462" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1576419808297">
+    <state x="759" y="200" width="462" height="713" key="#com.intellij.ide.util.MemberChooser" timestamp="1580580399523">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="759" y="200" width="462" height="713" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1576419808297" />
-    <state x="804" y="440" width="371" height="303" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580495853942">
+    <state x="759" y="200" width="462" height="713" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1580580399523" />
+    <state x="804" y="440" width="371" height="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580498289234">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="804" y="440" width="371" height="303" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580495853942" />
-    <state x="473" y="142" width="1024" height="851" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1580495127944">
+    <state x="804" y="440" width="371" height="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580498289234" />
+    <state x="473" y="142" width="1024" height="851" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1580498285491">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="473" y="142" width="1024" height="851" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1580495127944" />
-    <state x="477" y="27" width="1026" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578225339649">
+    <state x="473" y="142" width="1024" height="851" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1580498285491" />
+    <state x="477" y="27" width="1026" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580580441024">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="477" y="27" width="1026" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1578225339649" />
-    <state x="718" y="270" width="524" height="601" key="FileChooserDialogImpl" timestamp="1580495784314">
+    <state x="477" y="27" width="1026" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580580441024" />
+    <state x="718" y="270" width="524" height="601" key="FileChooserDialogImpl" timestamp="1580498282379">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="718" y="270" width="524" height="601" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1580495784314" />
-    <state width="1794" height="202" key="GridCell.Tab.0.bottom" timestamp="1580496102341">
+    <state x="718" y="270" width="524" height="601" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1580498282379" />
+    <state width="1794" height="435" key="GridCell.Tab.0.bottom" timestamp="1580757029325">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1580496102341" />
-    <state width="1794" height="202" key="GridCell.Tab.0.center" timestamp="1580496102341">
+    <state width="1794" height="435" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1580757029325" />
+    <state width="1794" height="435" key="GridCell.Tab.0.center" timestamp="1580757029324">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1580496102341" />
-    <state width="1794" height="202" key="GridCell.Tab.0.left" timestamp="1580496102340">
+    <state width="1794" height="435" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1580757029324" />
+    <state width="1794" height="435" key="GridCell.Tab.0.left" timestamp="1580757029324">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1580496102340" />
-    <state width="1794" height="202" key="GridCell.Tab.0.right" timestamp="1580496102341">
+    <state width="1794" height="435" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1580757029324" />
+    <state width="1794" height="435" key="GridCell.Tab.0.right" timestamp="1580757029325">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1580496102341" />
+    <state width="1794" height="435" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1580757029325" />
     <state x="360" y="101" width="1269" height="912" key="SettingsEditor" timestamp="1580495805294">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="360" y="101" width="1269" height="912" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1580495805294" />
-    <state x="575" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580495497928">
+    <state x="575" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580654372979">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="575" y="342" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580495497928" />
+    <state x="575" y="342" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580654372979" />
     <state x="598" y="432" width="773" height="268" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576174104507">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="598" y="432" width="773" height="268" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1850.1053@70.27.1850.1053" timestamp="1576174104507" />
+    <state x="680" y="103" width="619" height="907" key="refactoring.ChangeSignatureDialog" timestamp="1580580284844">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="680" y="103" width="619" height="907" key="refactoring.ChangeSignatureDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580580284844" />
+    <state x="574" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1580580753156">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="574" y="45" width="840" height="1034" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1580580753156" />
   </component>
 </project>

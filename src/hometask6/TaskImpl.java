@@ -1,4 +1,4 @@
-package hometask7;
+package hometask6;
 
 import java.util.concurrent.Callable;
 
@@ -18,6 +18,7 @@ public class TaskImpl<T> implements Task<T> {
 
     @Override
     public T get() {
+
         while (!done) {
             synchronized (this) {
                 if (!done && !inProgress) {
@@ -27,7 +28,9 @@ public class TaskImpl<T> implements Task<T> {
             }
         }
 
-        if (!done) calculateResult();
+        if (!done) {
+            calculateResult();
+        }
         return getResult();
     }
 

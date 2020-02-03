@@ -1,13 +1,10 @@
-package hometask6.format;
+package hometask5.format;
 
 
 import java.util.List;
 import java.util.Map;
 
 public class JSONFormat extends Format {
-    public JSONFormat(int indent) {
-        super(indent);
-    }
 
     @Override
     protected String onMapStart() {
